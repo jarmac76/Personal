@@ -1,20 +1,20 @@
 
 /* Stylesheet for personal page */
 
-/*body.background{
-    margin: 0;
-    background-image: url("images/foggy_trees2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-}*/
-#bckgrd2 {
+
+#bckgrdImg1 {
     margin: 0;
     background-image: url('images/foggy_trees3.png');
     background-size: cover;
     background-repeat: no-repeat;
 
     }
+
+#bckgrdImg2{
+    background-image: url('images/barn1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 img.logo{
@@ -53,10 +53,21 @@ h1{
     text-align: center;
 }
 
-p{
+#me{
+    max-width: 40%;
     text-align: center;
+    margin: auto;
+
 }
 
-/*#background2{
-    background-image: url("images/barn1.png");
-}*/
+#interest{
+    font-size: 500%;
+    color: #ffffff;
+}
+
+#wallButton{
+    display: block;
+    margin:auto;
+}
+
+
