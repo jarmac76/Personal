@@ -1,7 +1,7 @@
 
 /* Stylesheet for personal page */
 
-
+/*Background images for Home*/
 #bckgrdImg1 {
     margin: 0;
     background-image: url('images/foggy_trees3.png');
@@ -16,6 +16,13 @@
     background-repeat: no-repeat;
 }
 
+/*Resume Background Image*/
+#resumeBckgrdImg{
+    margin: 0;
+    background-image: url('images/Lone_pine.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 img.logo{
     display: block;
@@ -68,6 +75,13 @@ h1{
 #wallButton{
     display: block;
     margin:auto;
+}
+
+#resumeHeader{
+    padding-top: 100px;
+    margin-bottom: 100px;
+    font-size: 500%;
+    color: #ffffff;
 }
 
 
